@@ -12,49 +12,74 @@
 ​
 <body>
 ​
-  <h1>Nicole Sommerfeld</h1>
-​
-  <img src="./image2.jpg" height=200 width=300 alt="N. Sommerfeld">
-​
-  <p>A technical professional with strong background in coding and software life cycle.  Reputation for developing quality products on schedule.  Proven self-starter with attention to detail.  Exceptional communication and interpersonal skills.</p>
-  <p>Bachelors degree in engineering.  Masters degree in computer science.  Northwestern Data Bootcamp completed June 2021.</p>
-​
-  <ul>
-    <li><strong>Email:</strong> <a href="mailto: nsommerf@gmail.com">nsommerf@gmail.com</a></li>
-    <li><strong>Github:</strong> <a href="https://github.com/nsommerf">nsommerf</a></li>
-    <li><strong>Linked In:</strong> <a href="https://linkedin.com/in/sommerfeldnicole">sommerfeldnicole</a></li>
-  </ul>
-​
-  <table>
-    <tr>
-      <th>Books</th>
-      <th>Movies</th>
-      <th>Games</th>
-    </tr>
-    <tr>
-      <td>The Help</td>
-      <td>Godfather</td>
-      <td>Rummikub</td>
-    </tr>
-    <tr>
-      <td>Loving Frank</td>
-      <td>Usual Suspects</td>
-      <td>Clue</td>
-    </tr>
-    <tr>
-      <td>A New Earth</td>
-      <td>Shawshank Redemption</td>
-      <td>Phase10</td>
-    </tr>
-  </table>
-​
-  <!-- Bonus link to last class page -->
-  <ul>
-    <li><a href="https://github.com/Arocchi03/project_2">Project 2</a></li>
-    <li><a href="https://github.com/Arocchi03/project_1">Project 1</a></li>
-    <li><a href="https://github.com/nsommerf/etl_project">ETL Project</a></li>
-  </ul>
-​
+  <h1><b>Nicole Sommerfeld</b></h1>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 sidebar"></div>
+      <div class="col-md-4"><img src="./image2.jpg" id="bio-image" alt="N. Sommerfeld"></div>
+​      <div class="col-md-6">
+        <div id="main-bio">
+          <p>A technical professional with strong background in coding and software life cycle.  Reputation for developing quality products on schedule.  Proven self-starter with attention to detail.  Exceptional communication and interpersonal skills.</p>
+          <p>Bachelors degree in Engineering (University of Illinois Champaign).  Masters degree in Computer Science.  Northwestern Data Bootcamp completed June 2021.</p>
+​        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 sidebar"></div>
+      <div class="col-md-10">
+        <ul id="contact-info"><h3><b>Contact Information</b></h3>
+          <li><strong>Email:</strong> <a href="mailto: nsommerf@gmail.com">nsommerf@gmail.com</a></li>
+          <li><strong>Github:</strong> <a href="https://github.com/nsommerf">nsommerf</a></li>
+         <li><strong>Linked In:</strong> <a href="https://linkedin.com/in/sommerfeldnicole">sommerfeldnicole</a></li>
+        </ul>
+      </div>
+    </div>
+​    <div class="row">
+      <div class="col-md-2 sidebar"></div>
+      <div class="col-md-10">
+        <ul><h3><b>Work Examples</b></h3>
+          <li><a href="https://github.com/JLGit-01/project3">Final Project - Chicago Crime Predictions</a></li>
+          <li><a href="https://github.com/Arocchi03/project_2">Project 2 - Chicago Airbnb with Crime data</a></li>
+          <li><a href="https://github.com/Arocchi03/project_1">Project 1 - Chicago Airbnb data with flight info</a></li>
+          <li><a href="https://github.com/nsommerf/etl_project">ETL Project</a></li>
+          <li><a href="https://nsommerf.github.io/Web-Design">Web Design</a></li>
+          <li><a href="https://nsommerf.github.io/interactive-dashboard">Interactive Dashboard</a></li>
+          <li><a href="https://nsommerf.github.io/D3/">D3 Page</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+​      <div class="col-md-2 sidebar"></div>
+      <div class="col-md-10">
+        <h3><b>Favorites</b></h3>
+        <table class="table"id="hobbies">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">Books</th>
+            <th scope="col">Movies</th>
+            <th scope="col">Games</th>
+          </tr>
+          <tr>
+            <td>The Help</td>
+            <td>Godfather</td>
+            <td>Rummikub</td>
+          </tr>
+          <tr>
+            <td>Loving Frank</td>
+            <td>Usual Suspects</td>
+            <td>Clue</td>
+          </tr>
+          <tr>
+            <td>A New Earth</td>
+            <td>Shawshank Redemption</td>
+            <td>Phase10</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+​   <script src="./static/js/app.js"></script>
 </body>
 ​
 </html>
